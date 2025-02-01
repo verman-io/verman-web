@@ -1,15 +1,27 @@
 verman-web
 ==========
 
-Frontend for verman. Framework agnostic (vanilla JavaScript; Angular; Vue; or React).
+[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT--1.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Features
+Frontend for verman. Framework agnostic (vanilla JavaScript; [Angular](https://en.wikipedia.org/wiki/Angular_(web_framework)); [Vue](https://en.wikipedia.org/wiki/Vue.js); or [React](https://en.wikipedia.org/wiki/React_(software))).
 
-  - [ ] JSON editor
-  - [ ] Visualise JSON in a tree
-  - [ ] Download edited JSON
-  - [ ] Show what files are generated from the JSON
-  - [ ] Busybox + `envsubst` + `jq` WASM build for live execution of generator
+## Feature roadmap
+
+  - [ ] [JSON](https://en.wikipedia.org/wiki/JSON) editor
+  - [ ] Visualise [JSON](https://en.wikipedia.org/wiki/JSON) in a tree
+  - [ ] Download edited [JSON](https://en.wikipedia.org/wiki/JSON)
+  - [ ] Show what files are generated from the [JSON](https://en.wikipedia.org/wiki/JSON)
+  - [ ] [busybox](https://www.busybox.net) + [`envsubst`](http://savannah.gnu.org/projects/gettext/) + [`jq`](https://jqlang.org) [WASM](https://en.wikipedia.org/wiki/WebAssembly) build for live execution of generator
+  - [ ] Download generated files
+  - [ ] Execute generated files in [WASM](https://en.wikipedia.org/wiki/WebAssembly)
+
+## Screenshots
+
+(coming soon!)
+
+## CLI & library
+
+See https://github.com/SamuelMarks/libscript
 
 ---
 
@@ -54,3 +66,20 @@ To run the unit tests and watch for file changes during development, run:
 ```
 npm run test.watch
 ```
+
+---
+
+## License
+
+Licensed under either of:
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or <https://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
+
+at your option.
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+licensed as above, without any additional terms or conditions.
