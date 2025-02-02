@@ -1,19 +1,20 @@
 verman-web
 ==========
 
-[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT--1.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Frontend for verman. Framework agnostic (vanilla JavaScript; [Angular](https://en.wikipedia.org/wiki/Angular_(web_framework)); [Vue](https://en.wikipedia.org/wiki/Vue.js); or [React](https://en.wikipedia.org/wiki/React_(software))).
 
 ## Feature roadmap
 
   - [ ] [JSON](https://en.wikipedia.org/wiki/JSON) editor
-  - [ ] Visualise [JSON](https://en.wikipedia.org/wiki/JSON) in a tree
+  - [ ] Visualise [JSON](https://en.wikipedia.org/wiki/JSON) in an orgflow-style tree
   - [ ] Download edited [JSON](https://en.wikipedia.org/wiki/JSON)
   - [ ] Show what files are generated from the [JSON](https://en.wikipedia.org/wiki/JSON)
   - [ ] [busybox](https://www.busybox.net) + [`envsubst`](http://savannah.gnu.org/projects/gettext/) + [`jq`](https://jqlang.org) [WASM](https://en.wikipedia.org/wiki/WebAssembly) build for live execution of generator
   - [ ] Download generated files
   - [ ] Execute generated files in [WASM](https://en.wikipedia.org/wiki/WebAssembly)
+  - [ ] Shareable link for JSON that; once visited; shows generated files in a tree and JSON hierarchy in an orgflow-style tree 
 
 ## Screenshots
 
