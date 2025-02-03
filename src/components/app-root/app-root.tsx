@@ -13,7 +13,7 @@ export class AppRoot {
       <div>
         <header>
             <h1 onClick={() => Router.push("/")}>
-              Stencil App Starter
+              verMan.io
             </h1>
         </header>
 
@@ -23,8 +23,8 @@ export class AppRoot {
               <app-home />
             </Route>
             <Route
-              path={match("/profile/:name")}
-              render={({ name }) => <app-profile name={name} />}
+              path={match("/learn-more/:name")}
+              render={({ name }) => <app-learn-more name={name} />}
             />
           </Router.Switch>
         </main>

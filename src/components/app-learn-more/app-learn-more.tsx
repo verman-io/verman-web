@@ -1,11 +1,11 @@
 import { Component, Prop, h } from '@stencil/core';
 
 @Component({
-  tag: 'app-profile',
-  styleUrl: 'app-profile.css',
+  tag: 'app-learn-more',
+  styleUrl: 'app-learn-more.css',
   shadow: true,
 })
-export class AppProfile {
+export class AppLearnMore {
   @Prop() name: string;
 
   normalize(name: string): string {
@@ -19,8 +19,8 @@ export class AppProfile {
     debugger;
     if (this.name) {
       return (
-        <div class="app-profile">
-          <p>Hello! My name is {this.normalize(this.name)}. My name was passed in through a route param!</p>
+        <div class="app-learn-more">
+          <p>Learn more here {this.normalize(this.name)}</p>
         </div>
       );
     }

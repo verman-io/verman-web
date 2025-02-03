@@ -23,3 +23,53 @@ button:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
   transform: translateY(1px);
 }
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 10px;
+}
+
+.c1 {
+  grid-column: auto / span 12;
+}
+
+@media screen and (min-width:560px) {}
+
+@media screen and (min-width:737px) {
+  .c1-2-md {
+    grid-column: auto / span 6;
+  }
+  .c1-md {
+    grid-column: auto / span 12;
+  }
+}
+
+@media screen and (min-width: 1102px) {
+  .c1-3-lg {
+    grid-column: auto / span 4;
+  }
+}
+
+.features>div:first-child {
+  /*background-color: #0a79b3;*/
+}
+
+.features>div:nth-child(2) {
+/* background-color: #00FF00;*/
+}
+
+.features>div:last-child {
+  /* background-color: #7D572B;*/
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  margin:auto;
+}
+
+.center-elem {
+  margin: 0 auto
+}
